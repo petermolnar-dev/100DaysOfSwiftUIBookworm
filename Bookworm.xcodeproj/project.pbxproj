@@ -18,6 +18,7 @@
 		C7C8390D279F284A00BA0B59 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C8390C279F284A00BA0B59 /* DataController.swift */; };
 		C7C8391127A1C40200BA0B59 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C8391027A1C40200BA0B59 /* AddBookView.swift */; };
 		C7C8391327A32AB500BA0B59 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C8391227A32AB500BA0B59 /* RatingView.swift */; };
+		C7C8391527A32D0800BA0B59 /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C8391427A32D0800BA0B59 /* EmojiRatingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		C7C8390C279F284A00BA0B59 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		C7C8391027A1C40200BA0B59 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
 		C7C8391227A32AB500BA0B59 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		C7C8391427A32D0800BA0B59 /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 			children = (
 				C7C838D9279F1B9B00BA0B59 /* BookwormApp.swift */,
 				C7C838DB279F1B9B00BA0B59 /* ContentView.swift */,
+				C7C8391427A32D0800BA0B59 /* EmojiRatingView.swift */,
 				C7C8391227A32AB500BA0B59 /* RatingView.swift */,
 				C7C838DD279F1B9D00BA0B59 /* Assets.xcassets */,
 				C7C838DF279F1B9D00BA0B59 /* Preview Content */,
@@ -158,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7C8391527A32D0800BA0B59 /* EmojiRatingView.swift in Sources */,
 				C7C8390D279F284A00BA0B59 /* DataController.swift in Sources */,
 				C7C838DC279F1B9B00BA0B59 /* ContentView.swift in Sources */,
 				C7C83909279F25CB00BA0B59 /* BookWorm.xcdatamodeld in Sources */,
