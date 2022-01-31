@@ -54,10 +54,20 @@ struct AddBookView: View {
                         try? moc.save()
                         dismiss()
                     }
+                    .disabled(!self.validated())
                 }
             }
             .navigationTitle("Add book")
         }
+    }
+    
+    func validated() -> Bool {
+        guard !title.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty,
+              !author.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty,
+              !genre.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty else {
+                  return false
+              }
+        return true
     }
 }
 
